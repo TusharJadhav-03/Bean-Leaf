@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="logo-wbg.png">
+    <title>Coffee Shop</title>
+    
+</head>
+<style>
+    header{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid black;
+        border-radius: 20px 20px 20px 20px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    #header-sec{
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+<body>
+    <header>
+        <div style="width: 30%;">
+            <img src="logo-wbg.png" alt="" width="180px">
+        </div>
+    
+        <div id="header-sec">
+            <a href="">Home</a>
+            <a href="">Home</a>
+            <a href="">Home</a>
+            <a href="">Home</a>
+            <img src="search.png" alt="" width="30px">
+            <img src="shopping-cart.png" alt="" width="30px">
+            <img src="menu-burger.png" alt="" width="30px">
+        </div>
+    </header>
+
+</body>
+</html>
