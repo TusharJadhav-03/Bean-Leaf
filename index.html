@@ -6,23 +6,75 @@
     
 </head>
 <style>
-    header{
-        margin: 0%;
+    body{
+         margin: 0%;
         padding: 0%;
+    }
+    header{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border: 2px solid black;
-        border-radius: 20px 20px 20px 20px;
+        border: 1px solid rgba(105, 7, 7, 0.87);
+        /* border-radius: 20px 20px 20px 20px; */
+        height: 110px;
     }
     a{
         text-decoration: none;
         font-size: 20px;
     }
     #header-sec{
-        width: 45%;
+        width: 65%;
         display: flex;
         justify-content: space-between;
+    }
+    #first{
+        width: 100%;
+        height: 600px;
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    #second{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #third{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    #fourth{
+        background-image: url(paper.jpg);
+        width: 100%;
+        height: 700px;
+        background-image: url('paper.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 30px;
+        
+    }
+    /* #fourth-sec{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    } */
+    #fifth{
+        background-image: url(bg5th.jpg);
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 </style>
 <body>
@@ -32,15 +84,94 @@
         </div>
     
         <div id="header-sec">
-            <a href="">Home</a>
-            <a href="">Home</a>
-            <a href="">Home</a>
-            <a href="">Home</a>
+            <a href="">HOME</a>
+            <a href="">PAGES</a>
+            <a href="">PORTFOLIO</a>
+            <a href="">BLOG</a>
+            <a href="">SHOP</a>
+            <a href="">ELEMENTS</a>
             <img src="search.png" alt="" width="30px">
             <img src="shopping-cart.png" alt="" width="30px">
             <img src="menu-burger.png" alt="" width="30px">
         </div>
     </header>
+    
+    <div id="first">
+        <div></div>
+        <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-slider-img-1.png" alt="">
+            <h1 style="color: white; font-size: 60px" >Bean & Leaf</h1>
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/slider-separator-img.png" alt="">
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div id="second">
+        <h1 style="font-size: 60px;">Our Delicious Offer</h1>
+        <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png" alt="">
+        <p style="font-size: 22px;">“Indulge in flavors that delight your senses — at prices that make you smile!”</p>
+    </div>
+
+    <br><br><br>
+    
+    <div id="third">
+        <div style="align-items: center; display: flex; justify-content: center; flex-direction: column;">
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-5.png" alt="">
+            <h2>TYPES OF COFFEE</h2>
+            <p>Espresso, Latte, Cappuccino <br>
+            Americano, Mocha.</p>
+        </div>
+        <div style="align-items: center; display: flex; justify-content: center; flex-direction: column;">
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-6.png" alt="">
+            <h2>BEAN VERITIES</h2>
+            <p>Arabica, Robusta, Liberica, <br> Excelsa, Geisha.</p>
+        </div>
+        <div style="align-items: center; display: flex; justify-content: center; flex-direction: column;">
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-7.png" alt="">
+            <h2>COFFEE & PASTRY</h2>
+            <p>Espresso & Croissant, Latte & Cinnamon Roll, <br> Cappuccino & Chocolate Muffin.</p>
+        </div>
+        <div style="align-items: center; display: flex; justify-content: center; flex-direction: column;">
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h2-custom-icon-8.png" alt="">
+            <h2>COFFEE TO GO</h2>
+            <p>Iced Latte, Cold Brew, Café Mocha, <br> Flat White, Caramel Macchiato.</p>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    <div id="fourth">
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <h1 style="font-size: 50px;">The Coffee Herald</h1>
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/slider-separator-img.png" alt="">
+                <p style="font-size: 22px;">“Your Daily Brew of Coffee Culture.”</p>
+            </div>
+
+            <div style="display: flex; align-items: center; justify-content: space-around; column-gap: 40px;">
+                <div>
+                    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-3.jpg" alt="" width="300px">
+                    <h1>Prep Techniques</h1>
+                    <p style="width: 300px; text-align: justify;">Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
+                </div>
+                <div>
+                    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-3.jpg" alt="" width="300px">
+                    <h1>Prep Techniques</h1>
+                    <p style="width: 300px; text-align: justify;">Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
+                </div>
+                <div>
+                    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-3.jpg" alt="" width="300px">
+                    <h1>Prep Techniques</h1>
+                    <p style="width: 300px; text-align: justify;">Quisque rutrum, aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi, nam eget dui. Etiam rhoncus maecenas tempus,</p>
+                </div>
+                
+            </div>
+    </div>
+
+    <div id="fifth">
+        <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1-250x226.png" alt="">
+    </div>
+
 
 </body>
 </html>
